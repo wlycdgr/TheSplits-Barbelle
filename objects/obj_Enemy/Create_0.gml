@@ -1,9 +1,11 @@
-/// @description Set speed
+/// @description
+x = 140 + random(1000);
+y = 60 + random(60);
 
-// Add game-specific logic & initialization here
+var total_speed = 4;
+hspeed = 1 + random(2);
+vspeed = total_speed - hspeed;
+hspeed *= choose(-1, 1);
+vspeed *= choose(-1, 1);
 
-// Example: Funny Fingers
-//minimum_speed = global.core_enemy_speed_per_sec_min;
-//maximum_speed = global.core_enemy_speed_per_sec_max;
-//close_shave = instance_create_layer(x, y, "EnemiesAndEnergies", obj_CloseShave);
-//close_shave.parent_enemy = id;
+color = make_color_rgb(255, 57, 103);

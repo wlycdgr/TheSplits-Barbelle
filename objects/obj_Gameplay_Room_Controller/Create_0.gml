@@ -11,4 +11,7 @@ paused_sliding_ribbon = instance_create_layer(
 );
 
 // BARBELLE specifics
-instance_create_layer(whatever, whatever, "Instances", obj_Barbelle);
+instance_create_layer(whatever, whatever, "Barbelle", obj_Barbelle);
+
+instance_create_layer(whatever, whatever, "Controllers", obj_Energy_Generator);
+instance_create_layer(whatever, whatever, "Controllers", obj_Enemy_Generator);
