@@ -1,0 +1,82 @@
+WHAT MUST BE UPDATED / REMOVED TO MAKE THIS TEMPLATE GENERIC
+
+OBJECTS
+	DONE obj_Escaper
+	
+	Persistent/
+		Audio/
+			DONE obj_SoundManager
+		Settings/
+			DONE obj_Game_Settings
+		StateMachine/
+			DONE obj_Room_State_Tracker
+		Steam/
+			DONE obj_Steam_Liason
+		Splitsfont/
+			DONE obj_Splitsfont
+			
+	Controllers/
+		DONE obj_GameMaker_And_Raylib_Logos_Room_Controller
+		DONE obj_MyLogo_Room_Controller
+		DONE obj_Main_Menu_Room_Controller
+		DONE obj_Credits_Room_Controller
+		DONE obj_Tutorial_Room_Controller
+		DONE obj_Gameplay_Room_Controller
+		
+	UI/
+		DONE obj_Menu
+		DONE obj_Scoreboard
+		Sliding_Ribbons/
+			DONE obj_Game_Over_Menu_Sliding_Ribbon
+			DONE obj_Sliding_Ribbon
+			DONE obj_Paused_Sliding_Ribbon
+			
+	Animation/
+		DONE obj_SlidePath
+		DONE obj_SlideTween
+			
+	Input/
+		DONE obj_Input_Tracker
+		
+	EntityGenerators/
+		DONE obj_Entity_Generator
+		DONE obj_Energy_Generator
+		DONE obj_Enemy_Generator
+		
+	Entities/
+		DONE obj_Energy
+		DONE obj_Entity
+		DONE obj_Enemy 
+		
+	Splitsfont/
+		DONE obj_Splitsfont_Tweaker
+		DONE obj_Splitsfont_String
+		
+ROOMS
+	DONE r_InitRoom
+	DONE r_GameMakerAndRaylibLogos
+	DONE r_MyLogo
+	DONE r_MainMenu
+	DONE r_Gameplay
+	DONE r_Credits
+	DONE r_Tutorial
+
+DONE, RENAMED SOUNDS
+
+DONE SPRITES
+
+DONE SCRIPTS
+	
+
+
+	
+
+		
+
+		
+
+		
+
+		
+
+		
