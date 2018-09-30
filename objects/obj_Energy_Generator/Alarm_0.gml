@@ -1,3 +1,5 @@
-instance_create_layer(whatever, whatever, "Instances", obj_Energy);
+alarm[0] = 1500;
 
-alarm[0] = 30;
+for (var i = 0; i < 20; i++){
+	instance_create_layer(whatever, whatever, "Instances", obj_Energy);
+}

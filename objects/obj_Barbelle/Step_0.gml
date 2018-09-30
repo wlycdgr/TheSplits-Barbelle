@@ -10,14 +10,14 @@ current_line_thickness = ceil(
 	((max_possible_distance - current_distance) / max_possible_distance)
 );
 
-var compared_to_half = current_distance - half_max;
+var compared_to_half = current_distance - max_possible_distance / 3; //half_max;
 if (compared_to_half < 0){
 	obj_Circle_One.radius -= 0.00005 * compared_to_half;
 	obj_Circle_Two.radius -= 0.00005 * compared_to_half;
 }
 else { // compared_to_half >= 0;
-	obj_Circle_One.radius -= 0.000008 * compared_to_half;
-	obj_Circle_Two.radius -= 0.000008 * compared_to_half;
+	obj_Circle_One.radius -= 0.0001 * compared_to_half;
+	obj_Circle_Two.radius -= 0.0001 * compared_to_half;
 }
 
 // If a red dude has crossed our line, we are toast!

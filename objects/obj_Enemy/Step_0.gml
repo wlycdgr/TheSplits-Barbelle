@@ -17,3 +17,6 @@ else if (y < -200){
 	y = -200;
 	vspeed = abs(vspeed);
 }
+
+life_counter -= 1;
+if life_counter <= 0 { instance_destroy(); }
