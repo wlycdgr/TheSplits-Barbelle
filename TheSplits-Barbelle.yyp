@@ -1007,6 +1007,14 @@
             }
         },
         {
+            "Key": "ebfa71ad-40e4-4956-ab23-2f0deecb2b38",
+            "Value": {
+                "id": "9da11e2e-5c86-4196-8775-eecf3a4cdfd9",
+                "resourcePath": "objects\\obj_Barbelle\\obj_Barbelle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ed4f23f4-f586-487f-bc63-aebb0f132857",
             "Value": {
                 "id": "17427d63-a78a-4499-b9e2-46a8fa79c089",

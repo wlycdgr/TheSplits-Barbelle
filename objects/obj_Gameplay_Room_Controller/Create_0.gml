@@ -11,5 +11,4 @@ paused_sliding_ribbon = instance_create_layer(
 );
 
 // BARBELLE specifics
-instance_create_layer(room_width / 3, room_height / 2, "Instances", obj_Circle_One);
-instance_create_layer(room_width * (2 / 3), room_height / 2, "Instances", obj_Circle_Two);
+instance_create_layer(whatever, whatever, "Instances", obj_Barbelle);
