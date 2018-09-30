@@ -8,12 +8,12 @@ scr_Splitsfont_Set_Tweaks(instructions1_string, [0.05, 0.009, 0.018, 0, 30]);
 instructions1_string_y = 0.2 * window_height;
 
 instructions2_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(instructions2_string, "USE ANALOG STICKS AND TRIGGERS");
+scr_Splitsfont_Set_Text(instructions2_string, "USE ANALOG STICKS TO MOVE");
 scr_Splitsfont_Set_Tweaks(instructions2_string, [0.05, 0.009, 0.018, 0, 30]);
 instructions2_string_y = 0.425 * window_height;
 
 instructions3_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(instructions3_string, "DON'T TOUCH ANYTHING TO AVOID DEATH");
+scr_Splitsfont_Set_Text(instructions3_string, "ONLY TOUCH BLUE");
 scr_Splitsfont_Set_Tweaks(instructions3_string, [0.05, 0.009, 0.018, 0, 30]);
 instructions3_string_y = 0.65 * window_height;
 
