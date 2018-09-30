@@ -1,14 +1,11 @@
 /// @description Navigate menu, twitch
-
-// twitch title
-event_user(0);
+scr_Splitsfont_Rotate_String(title1);
 
 // animate & navigate menu
 switch (global.room_state_tracker.state) {
 case rs_setting_up_room:
 	if (title_tween.paused) {
 		global.room_state_tracker.state = rs_normal_room_operations;
-		event_user(2);
 	}
 	event_user(10);
 	break;
