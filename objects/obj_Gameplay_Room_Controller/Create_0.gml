@@ -10,7 +10,6 @@ paused_sliding_ribbon = instance_create_layer(
 	window_width, sliding_ribbon_y, "SlidingRibbons", obj_Paused_Sliding_Ribbon
 );
 
-// So we can pause the game if the Steam overlay
-// has just been deactivated
-steam_overlay_activated_this_step = false;
-steam_overlay_activated_last_step = false;
+// BARBELLE specifics
+instance_create_layer(room_width / 3, room_height / 2, "Instances", obj_Circle_One);
+instance_create_layer(room_width * (2 / 3), room_height / 2, "Instances", obj_Circle_Two);
