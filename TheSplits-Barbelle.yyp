@@ -74,7 +74,7 @@
             "Key": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
-                "resourcePath": "objects\\obj_Gameplay_Room_Controller\\obj_Gameplay_Room_Controller.yy",
+                "resourcePath": "objects\\obj_Barbelle_Gameplay_Controller\\obj_Barbelle_Gameplay_Controller.yy",
                 "resourceType": "GMObject"
             }
         },
