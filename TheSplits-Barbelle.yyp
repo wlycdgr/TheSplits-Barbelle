@@ -471,14 +471,6 @@
             }
         },
         {
-            "Key": "65ea4094-1f86-4fe9-bf04-cf3ed571b17a",
-            "Value": {
-                "id": "9add165e-3aa9-4b5d-a0c4-ed51e2174a59",
-                "resourcePath": "objects\\obj_Steam_Liason\\obj_Steam_Liason.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "67631ef1-79cb-4597-83c4-13e8ca6cff81",
             "Value": {
                 "id": "423f1191-738c-49eb-a1bd-5c3a2aa620d0",
@@ -804,14 +796,6 @@
                 "id": "bf99c026-3bce-4fa5-81fa-d41233efe760",
                 "resourcePath": "scripts\\scr_Steam_ToggleAchievement\\scr_Steam_ToggleAchievement.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c639c3d8-e4a0-41aa-b005-e2ffd0f9751c",
-            "Value": {
-                "id": "aba67747-e6ae-42f2-958c-86a3c4703eff",
-                "resourcePath": "views\\c639c3d8-e4a0-41aa-b005-e2ffd0f9751c.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
