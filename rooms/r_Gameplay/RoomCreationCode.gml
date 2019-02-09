@@ -1,1 +1,1 @@
-global.game = instance_create_layer(0, 0, "Controllers", obj_Gameplay_Room_Controller);
+global.game = instance_create_layer(0, 0, "Controllers", obj_Barbelle_Gameplay_Controller);

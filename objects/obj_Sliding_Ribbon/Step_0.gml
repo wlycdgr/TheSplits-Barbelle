@@ -1,5 +1,4 @@
 /// @description Slide in/out
-if (global.steam_overlay_activated) exit;
 
 // rms_inactive, rms_selection_made: do nothing!
 if (state == srs_sliding_in || state == srs_sliding_out) {

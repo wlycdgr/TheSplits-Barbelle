@@ -1,4 +1,4 @@
-if (obj_Gameplay_Room_Controller.state != gs_playing) {
+if (obj_Barbelle_Gameplay_Controller.state != gs_playing) {
 	speed = 0;
 	exit;
 }

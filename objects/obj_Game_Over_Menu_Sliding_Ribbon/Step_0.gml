@@ -1,6 +1,4 @@
 /// @description Slide in/out
-if (global.steam_overlay_activated) exit;
-
 event_inherited();
 
 // rms_inactive, rms_selection_made: do nothing!
