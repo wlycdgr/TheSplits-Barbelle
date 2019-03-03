@@ -1,82 +1,27 @@
-WHAT MUST BE UPDATED / REMOVED TO MAKE THIS TEMPLATE GENERIC
+need:
+snd_fx_MenuSelect
+snd_fx_MenuScroll
 
-OBJECTS
-	DONE obj_Escaper
-	
-	Persistent/
-		Audio/
-			DONE obj_SoundManager
-		Settings/
-			DONE obj_Game_Settings
-		StateMachine/
-			DONE obj_Room_State_Tracker
-		Steam/
-			DONE obj_Steam_Liason
-		Splitsfont/
-			DONE obj_Splitsfont
-			
-	Controllers/
-		DONE obj_GameMaker_And_Raylib_Logos_Room_Controller
-		DONE obj_MyLogo_Room_Controller
-		DONE obj_Main_Menu_Room_Controller
-		DONE obj_Credits_Room_Controller
-		DONE obj_Tutorial_Room_Controller
-		DONE obj_Gameplay_Room_Controller
-		
-	UI/
-		DONE obj_Menu
-		DONE obj_Scoreboard
-		Sliding_Ribbons/
-			DONE obj_Game_Over_Menu_Sliding_Ribbon
-			DONE obj_Sliding_Ribbon
-			DONE obj_Paused_Sliding_Ribbon
-			
-	Animation/
-		DONE obj_SlidePath
-		DONE obj_SlideTween
-			
-	Input/
-		DONE obj_Input_Tracker
-		
-	EntityGenerators/
-		DONE obj_Entity_Generator
-		DONE obj_Energy_Generator
-		DONE obj_Enemy_Generator
-		
-	Entities/
-		DONE obj_Energy
-		DONE obj_Entity
-		DONE obj_Enemy 
-		
-	Splitsfont/
-		DONE obj_Splitsfont_Tweaker
-		DONE obj_Splitsfont_String
-		
-ROOMS
-	DONE r_InitRoom
-	DONE r_GameMakerAndRaylibLogos
-	DONE r_MyLogo
-	DONE r_MainMenu
-	DONE r_Gameplay
-	DONE r_Credits
-	DONE r_Tutorial
+* add menu scroll sound effect
+* add menu select sound effect
+* add slide in / slide out sound effect(s)
 
-DONE, RENAMED SOUNDS
+* consider the design of the game. what does it need. what is good about it. what is not so good.
+it feels good to move the piece around
+i feel depressed and eager to quit working on this immediately
+it feels good to move it all around and stuff and i don't want to do this
+god i hate this
+why am i doing this
+who cares
+literally no one cares
+no one will play this
+no one will buy this
+i will hate it myself
+why am i doing this
+just arrogance or some kind of insecurity
 
-DONE SPRITES
+no one has encouraged me for years
+no one has given a shit for years
+even my fucking girlfriend does not care about this or encourage me or support me in this
 
-DONE SCRIPTS
-	
-
-
-	
-
-		
-
-		
-
-		
-
-		
-
-		
+whatever, just gotta do it, gotta make it good you know
