@@ -20,6 +20,13 @@ if (gs_playing == global.game.state) {
 	if (_num > 0){
 		for (var i = 0; i < _num; i++){
 			var energy = _list[| i];
+			
+			energy.life_counter = 0;
+			target_points += 10 * multiplier;
+			multiplier = min(max_multiplier, multiplier + 1);
+			multiplier_counter = 0;
+			
+			/*
 			if (energy.life_counter > 200){
 				energy.life_counter = 200;
 			}
@@ -30,6 +37,7 @@ if (gs_playing == global.game.state) {
 				multiplier = min(max_multiplier, multiplier + 1);
 				multiplier_counter = 0;
 			}
+			*/
 		}
 	}
 	ds_list_destroy(_list);
